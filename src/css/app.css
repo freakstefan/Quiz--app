@@ -101,6 +101,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   /* align-items: center; */
+  background-color: var(--background-color);
 }
 
 .left {
@@ -139,14 +140,14 @@ the button that contains the quiz topics has a diff bg color, i named it -button
   align-items: center;
   margin-bottom: 2.5rem;
   border-radius: 1rem;
-  background: white;
+  background: var(--button--bgc);
   border: none;
   padding: 1rem;
   width: 110%;
 }
 
 .box-1 {
-  border: 0.1rem solid white;
+  border: 0.1rem solid var(--button--bgc);
   background: #fde2d3;
   padding: 0.2rem;
 
@@ -180,6 +181,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
   align-items: center;
   padding-top: 5rem;
   margin-left: 3rem;
+  background-color: var(--background-color);
 }
 
 .left2 {
@@ -205,7 +207,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
 .half-div {
   /* height: 50rem; */
   width: 50%;
-  background: white;
+  background: var(--button--bgc);
   position: relative;
   display: flex;
   border-radius: 6.5rem;
@@ -216,7 +218,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
   padding: 0.3rem 4rem;
   width: 70%;
   border-radius: 6.5rem;
-  background: #a729f5;
+  background: var(--purple--color);
 }
 
 .right2 {
@@ -229,15 +231,15 @@ the button that contains the quiz topics has a diff bg color, i named it -button
   align-items: center;
   margin-bottom: 2.5rem;
   border-radius: 1rem;
-  background: white;
+  background: var(--button--bgc);
   border: none;
   padding: 1.2rem;
   width: 70%;
 }
 
 .box2 {
-  border: 0.1rem solid black;
-  color: #626c7f;
+  border: 0.1rem solid var(--secondary--color);
+  color: var(--ascent--color);
 
   border: none;
 }
@@ -251,8 +253,8 @@ the button that contains the quiz topics has a diff bg color, i named it -button
   padding: 1.4rem;
   width: 70%;
   border-radius: 1rem;
-  background: #a729f5;
-  color: white;
+  background: var(--purple--color);
+  color: var(--button--bgc);
   border: none;
   cursor: pointer;
 }
@@ -262,6 +264,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   padding-top: 8rem;
+  background-color: var(--background-color);
 }
 
 .left3 {
@@ -272,19 +275,19 @@ the button that contains the quiz topics has a diff bg color, i named it -button
   font-weight: 200;
   font-size: 4rem;
   line-height: 6rem;
-  color: #313e51;
+  color: var(--ascent--color);
 }
 
 .left3 h2 {
   font-weight: 600;
   font-size: 4rem;
   line-height: 4rem;
-  color: #313e51;
+  color: var(--secondary--color);
 }
 
 .right3 {
-  border: 0.2rem solid white;
-  background: white;
+  border: 0.2rem solid var(--ascent--3--color);
+  background: var(--button--bgc);
   border-radius: 1.5rem;
   padding: 3rem 8rem;
   margin-left: 10rem;
@@ -302,7 +305,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
 }
 
 .box3 {
-  background-color: #e6c6fc;
+  background-color: var(--ascent--3--color);
 }
 
 .box3 img {
@@ -339,9 +342,9 @@ the button that contains the quiz topics has a diff bg color, i named it -button
 
 .bttn2 {
   padding: 1.3rem 14rem;
-  color: white;
+  color: var(--button--bgc);
   border-radius: 1rem;
-  background: #a729f5;
+  background: var(--purple--color);
   border: none;
 }
 
