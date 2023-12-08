@@ -317,7 +317,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
   font-size: 1rem;
   line-height: 1.75rem;
   padding-left: 1.6rem;
-  color: #313e51;
+  color: var(--secondary--color);
 }
 
 .hero2 {
