@@ -172,6 +172,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
 .html {
   padding-left: 2rem;
   font-size: 1rem;
+  color: var(--secondary--color);
 }
 
 .container2 {
@@ -194,6 +195,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
   font-size: 1.25rem;
   line-height: 1.8rem;
   padding-bottom: 2rem;
+  color: var(--secondary--color);
 }
 
 .p2 {
@@ -239,7 +241,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
 
 .box2 {
   border: 0.1rem solid var(--secondary--color);
-  color: var(--ascent--color);
+  color: var(--secondary--color);
 
   border: none;
 }
@@ -247,6 +249,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
 .html2 {
   padding-left: 2rem;
   font-size: 1rem;
+  color: var(--secondary--color);
 }
 
 .bttn {
@@ -254,7 +257,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
   width: 70%;
   border-radius: 1rem;
   background: var(--purple--color);
-  color: var(--button--bgc);
+  color: var(--secondary--color);
   border: none;
   cursor: pointer;
 }
@@ -275,7 +278,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
   font-weight: 200;
   font-size: 4rem;
   line-height: 6rem;
-  color: var(--ascent--color);
+  color: var(--secondary--color);
 }
 
 .left3 h2 {
@@ -342,7 +345,7 @@ the button that contains the quiz topics has a diff bg color, i named it -button
 
 .bttn2 {
   padding: 1.3rem 14rem;
-  color: var(--button--bgc);
+  color: var(--secondary--color);
   border-radius: 1rem;
   background: var(--purple--color);
   border: none;
